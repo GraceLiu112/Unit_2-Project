@@ -8,10 +8,10 @@ int y;
 void setup(){
   size(600, 600);
   y = 0;
-  fill(0);
+  fill(252, 115, 115);
 }
 void draw(){
-  background(255);
+  background(255, 229, 229);
   ellipse(300, y, 100, 100);
   y = y + 1;
   if(y > 700){
